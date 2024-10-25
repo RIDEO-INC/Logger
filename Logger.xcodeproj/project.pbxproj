@@ -24,9 +24,9 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		7FD55F172CC88D3C005843CE /* Logger */ = {
+		7FD55F252CCB2D49005843CE /* Sources */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Logger;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -45,8 +45,8 @@
 		7FD55F0C2CC88D3C005843CE = {
 			isa = PBXGroup;
 			children = (
+				7FD55F252CCB2D49005843CE /* Sources */,
 				7FD55F222CCB2AA0005843CE /* Package.swift */,
-				7FD55F172CC88D3C005843CE /* Logger */,
 				7FD55F162CC88D3C005843CE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -75,7 +75,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				7FD55F172CC88D3C005843CE /* Logger */,
+				7FD55F252CCB2D49005843CE /* Sources */,
 			);
 			name = Logger;
 			packageProductDependencies = (
