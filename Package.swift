@@ -1,8 +1,19 @@
-//
-//  Package.swift
-//  Logger
-//
-//  Created by John Doe on 10/24/24.
-//
+// swift-tools-version:5.3
+import PackageDescription
 
-import Foundation
+let package = Package(
+    name: "Logger",
+    products: [
+        .library(
+            name: "Logger",
+            targets: ["Logger"]),
+    ],
+    dependencies: [
+        // The Logger library has no dependencies
+    ],
+    targets: [
+        .target(
+            name: "Logger",
+            dependencies: [])
+    ]
+)

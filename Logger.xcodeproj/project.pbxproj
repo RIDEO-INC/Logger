@@ -20,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		7FD55F152CC88D3C005843CE /* libLogger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLogger.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FD55F222CCB2AA0005843CE /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -44,6 +45,7 @@
 		7FD55F0C2CC88D3C005843CE = {
 			isa = PBXGroup;
 			children = (
+				7FD55F222CCB2AA0005843CE /* Package.swift */,
 				7FD55F172CC88D3C005843CE /* Logger */,
 				7FD55F162CC88D3C005843CE /* Products */,
 			);
